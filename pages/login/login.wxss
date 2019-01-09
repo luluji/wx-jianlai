@@ -1,0 +1,23 @@
+/* pages/login/login.wxss */
+.total{
+  margin: 80rpx 100rpx;
+}
+
+.account{
+  float: left;
+  margin-right:50rpx; 
+}
+.password{
+  float: left;
+  margin-right:50rpx; 
+}
+
+input{
+  padding-left:20rpx;
+  border: 2rpx black solid; 
+}
+
+button{
+  margin: 0 40%;
+  border: 2rpx black solid; 
+}

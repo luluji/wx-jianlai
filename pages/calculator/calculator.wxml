@@ -1,0 +1,36 @@
+<view class='calculator'>
+  <view class='name'><text>计算器</text></view>
+  <view class='dis'><input placeholder='{{dis}}'></input></view>
+  <view class='calbody'>
+    <view class='row'  >
+      <button bindtap='clear'>C</button>
+      <button>b</button>
+      <button>%</button>
+      <button bindtap='div'>/</button>
+    </view>
+    <view class='row' >
+      <button bindtap='num7'>7</button>
+      <button bindtap='num8'>8</button>
+      <button bindtap='num9'>9</button>
+      <button bindtap='mul'>*</button>
+    </view>
+    <view class='row' >
+      <button bindtap='num4'>4</button>
+      <button bindtap='num5'>5</button>
+      <button bindtap='num6'>6</button>
+      <button bindtap='sub'>-</button>
+    </view>
+    <view class='row' >
+      <button bindtap='num1'>1</button>
+      <button bindtap='num2'>2</button>
+      <button bindtap='num3'>3</button>
+      <button bindtap='add'>+</button>
+    </view>
+    <view class='row' >
+      <button>#</button>
+      <button bindtap='num0'>0</button>
+      <button bindtap='point'>.</button>
+      <button bindtap='eq'>=</button>
+    </view>
+  </view>
+</view>

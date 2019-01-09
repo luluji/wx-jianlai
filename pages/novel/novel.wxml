@@ -1,0 +1,31 @@
+<!--pages/novel/novel.wxml-->
+<view class='searchnovel'>
+  <view class='title'><text class='title-text'>小说搜索</text></view>
+  <view class='search'>
+    <input placeholder='search novel' bindinput='inputEvent'></input>
+    <button hidden='true' bindtap='click' >搜索</button>
+  </view>
+
+  <view class='part'>
+    <view class='novel' wx:for='{{result}}' wx:key="*this">
+      <view bindtap='enterdetail' data-name='{{item}}' class='novellist'> 
+      <text>{{item}}</text>
+      </view>
+    </view>
+  </view>
+
+  <view wx:if="{{!hassearched}}" class='sw'>
+    <swiper
+      autoplay='true'
+      interval='3000'
+      duration='500'
+      circilar="false" >
+      <block wx:for='{{pics}}' wx:key='*this'>
+        <swiper-item class='switem'>
+          <image bindtap='recommend' data-bookname='{{item.bookname}}' src='{{item.book_cover}}'></image>
+        </swiper-item>
+      </block>
+    </swiper>
+  </view>
+</view> 
+

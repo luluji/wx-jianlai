@@ -1,0 +1,39 @@
+{
+  "pages": [
+    "pages/novel/novel",
+    "pages/favorites/favorites",
+    "pages/login/login",
+    "pages/calculator/calculator",
+    "pages/detail/detail",
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "剑来",
+    "navigationBarTextStyle": "red"
+  },
+
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/novel/novel",
+      "text": "搜索",
+      "iconPath": "img/icon/search1.png",
+      "selectedIconPath": "img/icon/search2.png"
+    },
+    {
+      "pagePath": "pages/favorites/favorites",
+      "text": "收藏夹",
+      "iconPath": "img/icon/collect1.png",
+      "selectedIconPath": "img/icon/collect2.png"
+    },
+    {
+      "pagePath": "pages/login/login",
+      "text": "我的",
+      "iconPath": "img/icon/info1.png",
+      "selectedIconPath": "img/icon/info2.png"
+    }
+    ]
+  }
+}

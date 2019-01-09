@@ -1,0 +1,28 @@
+<!--pages/favorites/favorites.wxml-->
+<view wx:if='{{!hascol}}'>
+  <block>
+    <view class='empty'>
+      <view >收藏为空，请</view>
+      <view class='add' bindtap='addtap'>添加</view>
+    </view>
+  </block>
+</view>
+<view wx:else class='container'>
+  <block wx:for-items="{{favorites}}">
+    <view class='total ' >
+        <view class='cover' bindtap='favtap' data-favorite='{{item.title}}'>
+          <image src='{{item.cover}}'></image>
+        </view>
+        <view class='introduction' bindtap='favtap' data-favorite='{{item.title}}'>
+          <view class='title'> <text>{{item.title}}</text></view>
+          <view class='author'> <text>{{item.author}}</text></view>
+        </view>
+        <view class='down clearfix {{uhide==item.title?"":"hidden"}}'>
+          <view class='desc'><text>{{item.desc}}</text></view>
+          <view class='del' bindtap='deltap' data-favorite='{{item.title}}'>删除</view>
+          <view class='read' bindtap='readtap' data-favorite='{{item.title}}'>阅读</view>
+        </view>
+    </view>
+  </block>
+</view>
+

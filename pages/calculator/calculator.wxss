@@ -1,0 +1,46 @@
+.calculator{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.name{
+  font-size: 80rpx;
+  color: rgb(0, 0, 0);
+  height:auto; 
+  margin: 20rpx 0;
+}
+
+.calbody{
+  width: auto;
+}
+
+.dis{
+  background: rgb(211, 205, 205);
+  height: 120rpx;
+  width: 80%;
+  padding: 20rpx 20rpx;
+  margin-bottom:20rpx; 
+}
+
+input{
+  height: 100%;
+  text-align: right;
+  font-size: 80rpx;
+}
+
+.row{
+  display: flex;
+  flex-direction: row;
+}
+
+button{
+  height: 150rpx;
+  width: 150rpx;
+  background: rgb(131, 131, 226);
+  border-radius: 150rpx;
+  border: 1rpx #000 solid;
+  padding: 30rpx;
+  margin: 1rpx;
+}
+

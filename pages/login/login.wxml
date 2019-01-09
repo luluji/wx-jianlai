@@ -1,0 +1,5 @@
+<view class='t'>
+  <view class='total'><view class='account'>账号</view><input placeholder='account' bindinput='accountEvent'></input></view>
+  <view class='total'><view class='password'>密码</view><input password='true' placeholder='password' bindinput='passwordEvent'></input></view>
+  <button bindtap='click'>登陆</button>
+</view>

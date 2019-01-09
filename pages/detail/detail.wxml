@@ -1,0 +1,28 @@
+<!--pages/detail/detail.wxml-->
+<view class='empty' wx:if="{{!hasdata}}">
+  <text>没有搜索到数据，请返回</text>
+</view>
+<view wx:else class='total'>
+  <view class='part1'>
+    <view class='introduction'>
+      <view class='title'> <text>{{title}}</text></view>
+      <view class='author'> <text>{{author}}</text></view>
+      <view class='category'> <text>{{category}}</text></view>
+    </view>
+    <view class='cover'><image src='{{cover}}'></image></view>
+  </view>
+
+  <view class='part2'>
+    <view class='tags'><text>{{tags}}</text></view>
+    <view class='desc'>
+      <text>{{desc}}</text>
+    </view>
+
+    <view class='chapter'>
+      <view class='latest_chapter'><text>{{latest_chapter.cname}}</text></view>
+      <view class='first_chapter'><text>{{first_chapter.cname}}</text></view>
+    </view>
+  </view>
+  <view class='favorite' bindtap='coltap'>收藏</view>
+</view>
+

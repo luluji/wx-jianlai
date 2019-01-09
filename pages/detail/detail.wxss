@@ -1,0 +1,86 @@
+/* pages/detail/detail.wxss */
+.empty{
+  margin: 200rpx 50rpx;
+  text-align: center;
+}
+
+.total{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 95%; 
+}
+
+.part1{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top:50rpx; 
+}
+
+.part2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom:80rpx; 
+}
+
+.introduction{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 50rpx;
+  padding: 20rpx;
+  margin: 20rpx;
+}
+
+.author{
+  font-size: 30rpx;
+  color: blue;
+}
+
+.category{
+  font-size: 30rpx;
+  color: black;
+}
+
+.tags{
+  margin: 20rpx 10rpx;
+  color: black;
+}
+
+.desc{
+  margin: 20rpx 0;
+}
+
+.chapter{
+  margin: 20rpx 10rpx;
+}
+
+.first_chapter{
+  color: blue;
+}
+
+.latest_chapter{
+  color: blue;
+}
+
+image{
+  height: 200rpx;
+  width: 200rpx;
+  margin: 20rpx;
+}
+.favorite{
+  width: 100%;
+  float: bott;
+  position:fixed; 
+  bottom:0; 
+  text-align: center;
+  font-size: 40rpx;
+  background-color: yellow;
+  padding: 15rpx 0;
+}
+
+
+
+

@@ -1,0 +1,58 @@
+/* pages/novel/novel.wxss */
+.searchnovel{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title{
+  padding: 50rpx;
+}
+
+.title-text{
+  color: blue;
+  font-size: 80rpx;
+}
+
+input{
+  padding: 0 15px;
+  height: 100%;
+  background: rgba(125, 196, 238, 0.637);
+}
+
+button{
+  height: 100%;
+  padding: 20rpx;
+  background:yellow;
+  border:0rpx;
+  border-radius: 0;
+}
+
+.search{
+  
+  height: 120rpx;
+  display: flex;
+  flex-direction: row;
+
+}
+
+.part{
+  margin-top:50rpx; 
+  margin-bottom:200rpx; 
+}
+
+.novellist{
+  padding: 10rpx;
+  color:black; 
+}
+
+.sw{
+  
+  width: 100%;
+  float: bott;
+  position:fixed; 
+  bottom:0; 
+}
+.switem{
+  margin: 0 0 10% 10%;
+}
